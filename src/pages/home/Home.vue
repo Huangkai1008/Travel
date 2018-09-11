@@ -4,7 +4,9 @@
 
 <script>
 export default {
+  // eslint-disable-next-line
   name: 'Home'
+  // eslint-disable-next-line
 }
 </script>
 
