@@ -1,12 +1,14 @@
 <template>
-  <div>Hello Vue</div>
+  <div><home-header></home-header></div>
 </template>
 
 <script>
+import HomeHeader from './components/Header'
 export default {
-  // eslint-disable-next-line
-  name: 'Home'
-  // eslint-disable-next-line
+  name: 'Home',
+  components: {
+    HomeHeader
+  }
 }
 </script>
 
